@@ -36,7 +36,7 @@ SharePoint のアプリ モデルを使用すると、特定の技術に結び�
 
 サンプルを構成するには、次の作業を実行する必要があります。
 
-1. [作成ツールを使用して依存関係を取得する](#get-the-dependencies)
+1. [Composerを使用して依存関係を取得する](#get-the-dependencies)
 2. [Web サーバーで Web アプリケーションを作成する](#create-a-web-application)
 3. [SharePoint でアプリを登録する](#register-your-app-in-sharepoint)
 4. [Config.php ファイルを更新する](#update-the-configuration-file)
@@ -49,10 +49,11 @@ SharePoint のアプリ モデルを使用すると、特定の技術に結び�
 このサンプルでは、PHP の [OAuth 2.0 クライアント ライブラリ](https://github.com/thephpleague/oauth2-client)を使用しています。ライブラリを取得するには、[作成ツール](https://getcomposer.org/)を使用します。この手順に従って依存関係を取得します。
 
 1. コマンド プロンプトで、このプロジェクトのクローンの作成またはダウンロードを実行するフォルダーに移動します。
-2. **[PHP]** フォルダーに移動します。
-3. 「`composer install`」と入力します。
+2. git clone 等でプロジェクトをクローンする。
+3. **[PHP]** フォルダーに移動します。
+4. 「`composer install`」と入力します。
 
-作成ツールは、プロジェクトで必要となる依存関係をダウンロードします。
+Composerは、プロジェクトで必要となる依存関係をダウンロードします。
 
 <a name="create-a-web-application"></a>
 ### Web アプリケーションを作成する。
