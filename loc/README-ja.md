@@ -54,6 +54,9 @@ SharePoint のアプリ モデルを使用すると、特定の技術に結び�
 4. 「`composer install`」と入力します。
 
 Composerは、プロジェクトで必要となる依存関係をダウンロードします。
+メモ：composer installで、
+「Package guzzle/guzzle is abandoned, you should avoid using it. Use guzzlehttp/guzzle instead.」
+とメッセージがでる。guzzleはguzzlehttpに移行しているので、実運用にあたっては、guzzlehttpを利用するようにする。
 
 <a name="create-a-web-application"></a>
 ### Web アプリケーションを作成する。
